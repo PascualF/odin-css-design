@@ -1,0 +1,149 @@
+*{
+    font-family: "Roboto", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* header */
+
+header{
+    color: white;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 1em 5em 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1;
+    list-style-type: none;
+}
+
+header li{
+    display:block;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 48px;
+}
+
+header p{
+    font-size: 18px;
+}
+
+.btn-signup{
+    font-size: 18px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    font-weight: bolder;
+    padding: 0.5em 2.5em;
+    border-radius: 0.5em;
+}
+
+/* hero */
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-image,
+.hero-text{
+    flex: 1;
+}
+
+.image-hero{
+    height: 200px;
+    width: 200px;
+}
+
+.hero-left{
+    margin-right: 40px;
+}
+
+/* info */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info .image{
+    border:0.25em solid #3882f6;
+    margin: 5em 5em 5em 5em;
+    padding: 3em;
+    border-radius: 1em;
+
+}
+
+.info .text{
+    font-size: 18px;
+    width: 10em;
+    text-align: center;
+}
+
+.body-img-subtext{
+    display: flex;
+    align-items: center;
+    padding: 
+}
+
+
+
+/* quote */
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 3em;
+}
+
+/* Action call */
+
+.action-call{
+    display: flex;
+    margin: 4em 5em;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    background-color: #3882f6;
+    color: white;
+    padding: 0em 5em;
+    border-radius: 0.5em;
+
+}
+
+
+
+.action-btn{
+    font-size: 18px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    font-weight: bolder;
+    padding: 0.5em 2.5em;
+    border-radius: 0.5em;
+}
+
+/* footer */
+
+footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    text-align: center;
+    padding: 2.5em 0;
+    margin: 0;
+}
